@@ -1,0 +1,28 @@
+{
+  "name": "m2help/magento2-fullstory",
+  "description": "FullStory Script Installation.",
+  "type": "magento2-module",
+  "version": "1.1.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "^7.1",
+    "magento/framework": "100.0.*|100.1.*|101.0.*|102.0.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Analytics\\FullStory\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ]
+}
