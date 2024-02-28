@@ -1,4 +1,4 @@
-# Magento 2 - Fullstory Script module
+# Magento 2 - Fullstory Script module #TESTING-CODE-REVIEW
 Module for installation [fullstory recording script](https://help.fullstory.com/using/recording-snippet?target=_blank) and identify users with [FS.identify](https://help.fullstory.com/develop-js/identify?target=_blank) function. 
 The script sends `customer email`, `full name` and `customer ID` for logged users. 
 For guests, it generates and sends incremental `ID` with `Guest` prefix based on `visitor_id` from table `customer_visitor`, e.g `Guest100234`. 
